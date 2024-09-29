@@ -1,0 +1,37 @@
+body{
+    display:block;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("backgroundimage.jpeg");
+    background-size: cover;
+    background-size: max-content;
+}
+
+.navbar {
+    
+    block-size: auto;
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+    margin: -9px;
+    padding: 10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a{
+    color: white;
+    font-size: 15px;
+}
+
+.content{
+
+    margin: 100vh ;
+    height : 50vh;
+    width: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.4);
+
+}
